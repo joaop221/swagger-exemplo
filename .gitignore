@@ -1,0 +1,5 @@
+# npm
+node_modules/
+swagger_output.json
+*.log
+*.gz

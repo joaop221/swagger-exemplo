@@ -1,0 +1,27 @@
+{
+  "name": "swagger-exemplo",
+  "version": "1.0.0",
+  "description": "Exemplo Swagger UI + Swagger Gen no Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/config/swagger.js & node app.js",
+    "test": "echo \"test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaop221/swagger-exemplo"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "author": "equipe.itc@iteris.com.br",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.23.7"
+  }
+}
